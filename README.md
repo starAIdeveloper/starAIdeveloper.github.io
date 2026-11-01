@@ -5,7 +5,7 @@ Portfolio source: **https://starAIdeveloper.github.io/**
 ## Current website
 
 - **24 selected repository-backed portfolio entries**, each with a real image asset in the respective GitHub repository
-- Original **six SVG illustrations** in the `Built at the intersection of vision & execution` section
+- Five verified project screenshots used as expertise artwork, plus one original AI-agent SVG illustration in the `Built at the intersection of vision & execution` section
 - Project descriptions refreshed from linked project README files
 - Full-text search, category filters and project detail modals
 - Source links and scope disclaimers for prototypes, reference artwork and upstream projects
@@ -40,7 +40,7 @@ Additional included repositories are catalogued in `projects.js` (Pascal CAD Edi
 
 ## Category illustration assets
 
-These are **original, lightweight vector SVGs** committed to this portfolio repository; they are separate from project thumbnails.
+The six original lightweight category SVGs remain committed for future use. The live expertise section now uses verified repository screenshots for Vision, Robotics, 3D/CAD, Full-Stack and Games, and the original AI SVG for intelligent-agent concepts.
 
 - `assets/expertise/vision.svg` — computer vision detection scene
 - `assets/expertise/ai.svg` — connected AI agents
@@ -54,7 +54,7 @@ These are **original, lightweight vector SVGs** committed to this portfolio repo
 - `index.html` — homepage, project filters, expertise section and contact
 - `style.css` — layout, dark color system, responsive styling
 - `projects.js` — **24 verified image-backed project entries**
-- `app.js` — filtering, search and project details
+- `app.js` — filtering, search and multi-image project galleries with labeled screenshot/reference provenance
 - `assets/expertise/*.svg` — category artwork
 - `favicon.svg` — icon
 - `.nojekyll` — GitHub Pages static assets
@@ -76,3 +76,9 @@ The intended public address is https://starAIdeveloper.github.io/ after Pages su
 ## Maintenance
 
 Project README changes are not automatically synchronized. To update a project, review its README and current image tree, then update `projects.js`. Keep descriptions within demonstrated or documented scope. Avoid claiming clinical accuracy, production model performance, or original authorship without evidence.
+
+## Latest visual refresh
+
+Project dialogs now include image thumbnails and a larger preview with labels distinguishing **running application**, **design reference**, and **repository image** assets. The gallery uses image paths confirmed in the corresponding repository trees. The homepage expertise cards display authentic repository imagery in five disciplines and an original SVG illustration for AI agents.
+
+A successful GitHub Pages build and deployment was observed for the previous update on November 1, 2026. Subsequent commits may require a new successful deployment; check the [Actions page](https://github.com/starAIdeveloper/starAIdeveloper.github.io/actions) for status.
