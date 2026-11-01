@@ -78,15 +78,15 @@ window.PORTFOLIO_PROJECTS = [
     "name": "Baseball Analysis",
     "category": "sports",
     "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Interactive pitch video review with OpenCV ball-like candidates, manually reviewed 2D trajectories, image-plane measurements and annotated MP4 exports.",
+    "description": "OpenCV-powered baseball video review for candidate ball tracking, manually edited pitch trajectories, 2D image-plane velocity estimates, strike-zone annotations and video/CSV exports.",
     "tags": [
+      "Python",
       "OpenCV",
-      "FastAPI",
-      "Sports"
+      "FastAPI"
     ],
     "repo": "https://github.com/starAIdeveloper/Baseball-Analysis",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/artifacts/desktop.webp",
-    "note": "Image-plane estimates and manual annotation; not automatic strike calls, validated 3D biomechanics or radar-equivalent speeds.",
+    "note": "The application supports manual review of image-plane tracks and 2D joint angles. The five new biomechanics and pitch visualization images are design references, not tested application outputs or verified tracking accuracy.",
     "gallery": [
       {
         "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/artifacts/desktop.webp",
@@ -95,12 +95,32 @@ window.PORTFOLIO_PROJECTS = [
       },
       {
         "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/artifacts/mobile.webp",
-        "title": "Mobile view",
+        "title": "Mobile review interface",
         "kind": "Running application"
       },
       {
         "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-1.png",
-        "title": "Baseball concept 1",
+        "title": "Pitch, swing and biomechanics overview",
+        "kind": "Design reference"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-2.png",
+        "title": "Pitching, field positioning and bat contact",
+        "kind": "Design reference"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-3.png",
+        "title": "Pitch trajectory and full-body pose visualization",
+        "kind": "Design reference"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-4.png",
+        "title": "Release mechanics and strike-zone visualization",
+        "kind": "Design reference"
+      },
+      {
+        "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-5.png",
+        "title": "Swing mechanics and ball-flight analysis",
         "kind": "Design reference"
       }
     ]
