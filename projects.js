@@ -4,97 +4,97 @@ window.PORTFOLIO_PROJECTS = [
     "name": "SportsVision",
     "category": "sports",
     "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Fixed-camera sports video analysis with motion tracks, selectable trajectories, occupancy heatmaps, planar court calibration and manual event annotations.",
+    "description": "Fixed-camera sports review with tracked motion, trajectories, occupancy heatmaps, court calibration and manual match annotations.",
     "tags": [
-      "Python",
       "OpenCV",
-      "Sports Analytics"
+      "Python",
+      "Tracking"
     ],
     "repo": "https://github.com/starAIdeveloper/SportVision",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/SportVision/main/artifacts/desktop.webp",
-    "note": "The dashboard runs on generated sample footage; advanced pose inference is optional and real-match accuracy is unverified."
+    "note": "Working local analysis tool. Sample footage and gallery concepts are illustrative; athlete identity and AI coaching are not automatically inferred."
   },
   {
     "id": 2,
     "name": "Video Synopsis System",
     "category": "vision",
     "categoryLabel": "COMPUTER VISION",
-    "description": "Working local fixed-camera video review app with motion tracks, condensed activity reels, searchable notes, event timelines, MP4 and CSV exports.",
+    "description": "Local fixed-camera video review with composited motion tracks, activity reels, searchable notes and exportable reports.",
     "tags": [
       "Python",
-      "OpenCV MOG2",
+      "OpenCV",
       "FFmpeg"
     ],
     "repo": "https://github.com/starAIdeveloper/Video-Synopsis-System",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/Video-Synopsis-System/main/artifacts/synopsis-desktop.webp",
-    "note": "Motion-based review tool; semantic recognition requires an optional model. No live RTSP or multi-camera identity matching."
+    "note": "Motion candidates are not verified people or vehicles without an optional compatible model. No RTSP camera feeds or identity matching."
   },
   {
     "id": 3,
     "name": "Baseball Analysis",
     "category": "sports",
     "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Interactive baseball video review lab with OpenCV motion candidates, manually reviewed pitch trajectories, 2D strike-zone annotations and annotated MP4 exports.",
+    "description": "Interactive pitch video review with OpenCV ball-like candidates, manually reviewed 2D trajectories, image-plane measurements and annotated MP4 exports.",
     "tags": [
-      "Python",
       "OpenCV",
-      "FastAPI"
+      "FastAPI",
+      "Sports"
     ],
     "repo": "https://github.com/starAIdeveloper/Baseball-Analysis",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/artifacts/desktop.webp",
-    "note": "Candidate detection and manual review, not validated automatic baseball recognition or radar-equivalent pitch speeds."
+    "note": "Image-plane estimates and manual annotation; not automatic strike calls, validated 3D biomechanics or radar-equivalent speeds."
   },
   {
     "id": 4,
     "name": "VirtualTour Studio",
     "category": "3d",
     "categoryLabel": "CAD / BIM / WEBGL",
-    "description": "Interactive virtual-tour workspace featuring a 360° panorama viewer, scene and hotspot editing, navigation maps and local image processing.",
+    "description": "Immersive 360° tour workbench with hotspot and scene editing, navigation maps, panorama exploration and browser activity analytics.",
     "tags": [
-      "3D Tours",
-      "Panorama",
-      "Web"
+      "360° Tours",
+      "JavaScript",
+      "WebGL"
     ],
     "repo": "https://github.com/starAIdeveloper/VirtualTour",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/VirtualTour/main/docs/screenshots/dashboard.webp",
-    "note": "A working browser-based virtual-tour workbench using illustrative environments."
+    "note": "Thumbnail shows the implemented application, rather than a design-reference image."
   },
   {
     "id": 5,
     "name": "ToothAssist CV",
     "category": "ai",
     "categoryLabel": "AI & SOFTWARE",
-    "description": "Browser-based dental imaging and record-management demo with grayscale/edge filters, interactive dental charts, patient records and report exports.",
+    "description": "Dental imaging workflow with patient records, local Canvas image filters, manual findings, tooth charts, treatment plans and printable reports.",
     "tags": [
+      "JavaScript",
       "Canvas",
-      "Dental",
-      "JavaScript"
+      "Healthcare"
     ],
     "repo": "https://github.com/starAIdeveloper/ToothAssist",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/ToothAssist/main/docs/screenshots/dashboard.webp",
-    "note": "Demonstration workflow only; no trained diagnostic model or clinical validation."
+    "note": "Demo application, not a clinical medical device. No trained diagnostic model or production patient-data security."
   },
   {
     "id": 6,
     "name": "X-Ray 3D Reconstruction",
     "category": "ai",
     "categoryLabel": "AI & SOFTWARE",
-    "description": "Research browser workbench with parallel-beam filtered backprojection, synthetic volume data, slice inspection and STL/OBJ mesh export.",
+    "description": "Browser-based filtered backprojection research workbench with projection import, slices, segmentation, synthetic volumes and STL/OBJ export.",
     "tags": [
       "Three.js",
-      "Web Worker",
-      "Reconstruction"
+      "Reconstruction",
+      "Web Worker"
     ],
     "repo": "https://github.com/starAIdeveloper/X-Ray",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/X-Ray/main/docs/screenshots/dashboard.webp",
-    "note": "Not a clinical diagnostic or validated patient-reconstruction system."
+    "note": "Research prototype with synthetic sample volumes; not a validated clinical image-reconstruction solution."
   },
   {
     "id": 7,
     "name": "3D-BIM Desktop",
     "category": "3d",
     "categoryLabel": "CAD / BIM / WEBGL",
-    "description": "Native Python/PySide6 architectural concept editor with generated house models, a 3D viewport and floor-layout views.",
+    "description": "Python/PySide6 architectural concept editor featuring procedural building geometry, floor plans and an interactive 3D viewport.",
     "tags": [
       "Python",
       "PySide6",
@@ -102,43 +102,44 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "repo": "https://github.com/starAIdeveloper/3D-BIM",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/3D-BIM/main/docs/screenshots/modern-villa.webp",
-    "note": "Schematic architectural geometry, not full IFC or Revit interoperability."
+    "note": "Native desktop concept editor, not a full IFC/Revit BIM system."
   },
   {
     "id": 8,
     "name": "3D Reconstruction Workbench",
     "category": "robotics",
     "categoryLabel": "ROBOTICS & 3D",
-    "description": "Native Python/Qt workbench for calibrated sparse two-view 3D reconstruction using SIFT features, RANSAC pose recovery and point-cloud export.",
+    "description": "Calibrated sparse two-view 3D reconstruction using SIFT, RANSAC pose recovery, triangulation and PLY point-cloud export.",
     "tags": [
       "Python",
       "OpenCV",
-      "Qt"
+      "Photogrammetry"
     ],
     "repo": "https://github.com/starAIdeveloper/3D-Reconstruction",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/3D-Reconstruction/main/docs/desktop.png",
-    "note": "Sparse two-view output at arbitrary scale, not dense multi-image photogrammetry or metric reconstruction."
+    "note": "Two-camera sparse scene reconstruction at unknown physical scale, not a full multi-image mesh builder."
   },
   {
     "id": 9,
     "name": "Coastline Rush",
     "category": "games",
     "categoryLabel": "INTERACTIVE",
-    "description": "Playable Three.js arcade racer with eight opponents, lap times, nitro, minimap, collision logic and mobile controls.",
+    "description": "Playable Three.js arcade racing game with eight racers, three laps, nitro, leaderboard, minimap and mobile controls.",
     "tags": [
       "Three.js",
-      "TypeScript",
-      "Arcade Racing"
+      "3D Games",
+      "JavaScript"
     ],
     "repo": "https://github.com/starAIdeveloper/ThreeJS-Racing-Game",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/ThreeJS-Racing-Game/main/docs/desktop.png",
-    "note": "Original stylized procedural graphics; not a photorealistic racing simulation."
+    "note": "Stylized procedural environment and original arcade gameplay; desktop image from running game."
   },
   {
-    "name": "Scene Reconstruction Studio",
+    "id": 10,
+    "name": "Scene Reconstruction",
     "category": "3d",
     "categoryLabel": "CAD / BIM / WEBGL",
-    "description": "Local-first image-to-world workspace for scene exploration, bounded spatial previews and image-based 3D reconstruction workflows.",
+    "description": "Image-to-world studio for bounded spatial previews, navigable environments, room exploration and 3D scene workflows.",
     "tags": [
       "Next.js",
       "TypeScript",
@@ -146,391 +147,216 @@ window.PORTFOLIO_PROJECTS = [
     ],
     "repo": "https://github.com/starAIdeveloper/SceneReconstruction",
     "image": "https://raw.githubusercontent.com/starAIdeveloper/SceneReconstruction/main/docs/walkthrough/app-walkthrough-poster.jpg",
-    "note": "Open-source repository includes upstream credits and a public preview; verify individual contributions before claiming original ownership.",
-    "id": 10
+    "note": "Open-source codebase with upstream project credits; listing does not imply sole authorship."
   },
   {
     "id": 11,
-    "name": "TurnORA",
-    "category": "ai",
-    "categoryLabel": "AI & SOFTWARE",
-    "description": "Functional vacation-rental cleaning-operations browser demo with calendars, checkout-generated tasks, cleaner assignments, checklists and simulated payouts.",
-    "tags": [
-      "JavaScript",
-      "Operations",
-      "Prototype"
-    ],
-    "repo": "https://github.com/starAIdeveloper/TurnORA",
-    "image": null,
-    "note": "Local browser-storage MVP; official channel sync, payment processing and production multi-tenant security are not implemented."
-  },
-  {
-    "id": 12,
-    "name": "NexaChat AI",
-    "category": "ai",
-    "categoryLabel": "AI & SOFTWARE",
-    "description": "Multi-channel AI chatbot workspace, knowledge retrieval, conversations and business analytics.",
-    "tags": [
-      "AI Agents",
-      "RAG",
-      "SaaS"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 13,
-    "name": "SecureVision CCTV",
-    "category": "vision",
-    "categoryLabel": "COMPUTER VISION",
-    "description": "Camera analytics for object detection, identity matching, suspicious events and vehicle recognition.",
-    "tags": [
-      "CCTV",
-      "YOLO",
-      "Tracking"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 14,
-    "name": "SpoolInsight",
-    "category": "industry",
-    "categoryLabel": "INDUSTRIAL AI",
-    "description": "Industrial winding quality inspection, tension monitoring and spool defect analysis.",
-    "tags": [
-      "Inspection",
-      "Analytics"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 15,
-    "name": "Robotic Mapping & SLAM",
-    "category": "robotics",
-    "categoryLabel": "ROBOTICS & 3D",
-    "description": "Indoor autonomous mapping with visual perception, localization and route planning.",
-    "tags": [
-      "SLAM",
-      "Robotics"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 16,
-    "name": "AIRCRAFT",
-    "category": "robotics",
-    "categoryLabel": "ROBOTICS & 3D",
-    "description": "Real-time ADS-B aircraft tracking and telescope pointing using predictive tracking and computer vision.",
-    "tags": [
-      "C++",
-      "OpenCV",
-      "Tracking"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 17,
-    "name": "FairwayVision",
-    "category": "sports",
-    "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Computer vision golf platform for swing analysis, putting and actionable performance reports.",
-    "tags": [
-      "Pose Estimation",
-      "Golf"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 18,
-    "name": "CloudES",
-    "category": "3d",
-    "categoryLabel": "CAD / BIM / WEBGL",
-    "description": "Standalone WebGL construction-model viewer with element inspection, floor and category filters, section planes, geometry measurements and issue notes.",
-    "tags": [
-      "WebGL",
-      "Vite",
-      "3D Viewer"
-    ],
-    "repo": "https://github.com/starAIdeveloper/CloudES",
-    "image": null,
-    "note": "Supports a documented box-geometry JSON format; no IFC, Revit, ArcGIS or enterprise backend integration."
-  },
-  {
-    "id": 19,
-    "name": "Pascal CAD Editor",
-    "category": "3d",
-    "categoryLabel": "CAD / BIM / WEBGL",
-    "description": "Open-source local-first 3D building editor codebase using React Three Fiber, WebGPU and agent-oriented tooling.",
-    "tags": [
-      "React Three Fiber",
-      "WebGPU",
-      "Open Source"
-    ],
-    "repo": "https://github.com/starAIdeveloper/cad-editor",
-    "image": null,
-    "note": "Repository follows the Pascal Editor open-source project; this listing does not claim original authorship of upstream work."
-  },
-  {
     "name": "Hunting Boat",
     "category": "games",
     "categoryLabel": "INTERACTIVE",
-    "description": "Unity 6 fishing and boat-navigation source project with procedural environments, fishing loop, upgrades, touch controls and local progression.",
+    "description": "Unity 6 fishing-and-navigation source project featuring boats, procedural scenery, fishing mechanics, upgrades and local saves.",
     "tags": [
-      "Unity 6",
+      "Unity",
       "C#",
-      "Game Systems"
+      "Simulation"
     ],
     "repo": "https://github.com/starAIdeveloper/Hunting-Boat",
-    "image": null,
-    "note": "Source code and static validation available; Unity compilation and native gameplay testing have not been completed.",
-    "id": 20
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/Hunting-Boat/main/docs/reference/unity3d-2.png",
+    "note": "Cover is reference concept art. Source and static checks exist, but Unity compilation and full gameplay were not verified."
   },
   {
-    "name": "Turnpoint",
-    "category": "ai",
-    "categoryLabel": "AI & SOFTWARE",
-    "description": "Public code showcase for short-term-rental cleaning operations, scheduling, crews, checklists, inventory and payout workflows.",
+    "id": 12,
+    "name": "CloudES",
+    "category": "3d",
+    "categoryLabel": "CAD / BIM / WEBGL",
+    "description": "Browser-based construction visualization with 3D building viewer, element inspection, floor filters, measurements and coordination notes.",
     "tags": [
-      "Full Stack",
-      "Supabase",
-      "Operations"
-    ],
-    "repo": "https://github.com/starAIdeveloper/turnpoint",
-    "image": null,
-    "note": "The README describes this as a public showcase; live production data and private system access are not included.",
-    "id": 21
-  },
-  {
-    "id": 22,
-    "name": "Cloth Simulation",
-    "category": "games",
-    "categoryLabel": "INTERACTIVE",
-    "description": "Interactive browser-based 3D cloth physics simulation with Verlet integration, distance constraints and user-controlled forces.",
-    "tags": [
-      "Three.js",
       "WebGL",
-      "Verlet Physics"
+      "3D Viewer",
+      "Construction"
     ],
-    "repo": "https://github.com/starAIdeveloper/Cloth-Simulation",
-    "image": null
+    "repo": "https://github.com/starAIdeveloper/CloudES",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/CloudES/main/docs/reference/cloudes_personal-0.png",
+    "note": "Cover is a design reference, not an app screenshot. Supports JSON box geometry, not IFC or ArcGIS integration."
   },
   {
-    "name": "Three.js Game Skills",
+    "id": 13,
+    "name": "Pascal CAD Editor",
+    "category": "3d",
+    "categoryLabel": "CAD / BIM / WEBGL",
+    "description": "Open-source browser-based building editor using React Three Fiber and WebGPU with local-first workflows and agent integration.",
+    "tags": [
+      "React Three Fiber",
+      "WebGPU",
+      "CAD"
+    ],
+    "repo": "https://github.com/starAIdeveloper/cad-editor",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/cad-editor/main/docs/media/cad-reference/cad-1.png",
+    "note": "Repository is based on Pascal Editor upstream. Cover is a supplied concept; original authorship is not assumed."
+  },
+  {
+    "id": 14,
+    "name": "VibeStudio",
     "category": "games",
     "categoryLabel": "INTERACTIVE",
-    "description": "Developer toolkit of reusable AI agent skills for building and testing Three.js games, with a Vite and TypeScript scaffold.",
+    "description": "Open-source idTech development studio tooling with code, asset and level workflows and configurable editor panels.",
     "tags": [
-      "Three.js",
-      "TypeScript",
-      "Developer Tools"
-    ],
-    "repo": "https://github.com/starAIdeveloper/ThreeJS-Game",
-    "image": null,
-    "note": "This is a tooling and skills repository, not a finished game release.",
-    "id": 23
-  },
-  {
-    "id": 24,
-    "name": "PitchVision",
-    "category": "sports",
-    "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Baseball pitch analysis, trajectory review and player performance insights.",
-    "tags": [
-      "Tracking",
-      "Sports AI"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 25,
-    "name": "AeroTrack Vision",
-    "category": "vision",
-    "categoryLabel": "COMPUTER VISION",
-    "description": "Drone camera person detection, object tracking and real-time visual analytics.",
-    "tags": [
-      "Object Tracking",
-      "OpenCV"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 26,
-    "name": "HoopVision",
-    "category": "sports",
-    "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Basketball performance analytics and player movement insights.",
-    "tags": [
-      "Sports AI",
-      "Tracking"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 27,
-    "name": "Traffic Monitoring",
-    "category": "vision",
-    "categoryLabel": "COMPUTER VISION",
-    "description": "Road camera analytics for vehicle counting, classifications, flow and violation monitoring.",
-    "tags": [
-      "Traffic",
-      "YOLO"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 28,
-    "name": "Video Analysis System",
-    "category": "vision",
-    "categoryLabel": "COMPUTER VISION",
-    "description": "Multi-camera detection, persistent tracking, event search and automated reporting.",
-    "tags": [
-      "Video AI",
-      "Tracking"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 29,
-    "name": "CueVision",
-    "category": "sports",
-    "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Billiards shot mechanics, cue-ball paths, trajectory prediction and match analytics.",
-    "tags": [
-      "Billiards",
-      "Trajectory"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 30,
-    "name": "Golf Swing Analysis",
-    "category": "sports",
-    "categoryLabel": "SPORTS TECHNOLOGY",
-    "description": "Golf swing motion assessment, club path estimation and personalized practice feedback.",
-    "tags": [
-      "Pose Tracking",
-      "AI Coach"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 31,
-    "name": "FishGuard",
-    "category": "vision",
-    "categoryLabel": "COMPUTER VISION",
-    "description": "Computer vision monitoring and intelligent detection workflows for aquatic environments.",
-    "tags": [
-      "Vision",
-      "Monitoring"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 32,
-    "name": "Home Assistant Robot",
-    "category": "robotics",
-    "categoryLabel": "ROBOTICS & 3D",
-    "description": "Autonomous indoor navigation and telepresence with mobile control and a prototype robotic arm.",
-    "tags": [
-      "Robotics",
-      "ROS"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 33,
-    "name": "Ring Measurement",
-    "category": "industry",
-    "categoryLabel": "INDUSTRIAL AI",
-    "description": "Contour-based precision jewelry analysis and estimated inner and outer ring dimensions.",
-    "tags": [
-      "Measurement",
-      "OpenCV"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 34,
-    "name": "Face Recognition",
-    "category": "vision",
-    "categoryLabel": "COMPUTER VISION",
-    "description": "Real-time facial detection, alignment and recognition for authorized identity workflows.",
-    "tags": [
-      "Face AI",
-      "Recognition"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 35,
-    "name": "Face Swap System",
-    "category": "ai",
-    "categoryLabel": "AI & SOFTWARE",
-    "description": "Computer vision pipeline for face alignment, blending and visual effects.",
-    "tags": [
-      "CV",
-      "Deep Learning"
-    ],
-    "repo": null,
-    "image": null
-  },
-  {
-    "id": 36,
-    "name": "Medical-SAM3",
-    "category": "ai",
-    "categoryLabel": "AI & SOFTWARE",
-    "description": "Repository reference for a prompt-driven medical image segmentation research model and related inference and evaluation workflows.",
-    "tags": [
-      "Medical Vision",
-      "Segmentation",
-      "Research"
-    ],
-    "repo": "https://github.com/starAIdeveloper/Medical-SAM3",
-    "image": null,
-    "note": "Upstream project by AIM-Research-Lab; inclusion is a codebase reference, not an original-authorship claim."
-  },
-  {
-    "id": 37,
-    "name": "VibeStudio",
-    "category": "ai",
-    "categoryLabel": "AI & SOFTWARE",
-    "description": "Open-source idTech game development studio and editor tooling reference in the GitHub collection.",
-    "tags": [
-      "Game Tooling",
-      "idTech",
+      "Game Tools",
+      "Editor",
       "Open Source"
     ],
     "repo": "https://github.com/starAIdeveloper/VibeStudio",
-    "image": null,
-    "note": "Upstream open-source VibeStudio project; original authorship is not asserted."
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/VibeStudio/main/docs/showcase/screenshots/workspace.png",
+    "note": "Public upstream project and codebase reference, not a claim of sole original development."
   },
   {
-    "id": 38,
-    "name": "Creative AI Imagery",
+    "id": 15,
+    "name": "VibeRadiant",
+    "category": "games",
+    "categoryLabel": "INTERACTIVE",
+    "description": "Open-source level-editor fork building on NetRadiant-Custom, focusing on realtime lighting preview and enhanced editing workflows.",
+    "tags": [
+      "Level Design",
+      "Game Tools",
+      "Open Source"
+    ],
+    "repo": "https://github.com/starAIdeveloper/VibeRadiant",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/VibeRadiant/main/docs/viberadiant-banner.png",
+    "note": "Fork credits the NetRadiant-Custom upstream developers. Banner is artwork, not measured performance evidence."
+  },
+  {
+    "id": 16,
+    "name": "Q2 Gladiator Bot",
+    "category": "games",
+    "categoryLabel": "INTERACTIVE",
+    "description": "Open-source reconstruction of the classic Quake II Gladiator bot library, bot support code and modern toolchain work.",
+    "tags": [
+      "C/C++",
+      "Game AI",
+      "Reverse Engineering"
+    ],
+    "repo": "https://github.com/starAIdeveloper/Quake2-Gladiator-Bot",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/Quake2-Gladiator-Bot/main/docs/images/logo-header.png",
+    "note": "Original Gladiator and upstream projects retain their own attribution."
+  },
+  {
+    "id": 17,
+    "name": "openQ4",
+    "category": "games",
+    "categoryLabel": "INTERACTIVE",
+    "description": "Open-source engine and game-code modernization effort for running the original Quake 4 assets on current systems.",
+    "tags": [
+      "C++",
+      "Game Engine",
+      "Open Source"
+    ],
+    "repo": "https://github.com/starAIdeveloper/openQ4",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/openQ4/main/assets/docs/img/banner.png",
+    "note": "Requires original game assets and follows upstream open-source licensing; not an original Quake 4 game claim."
+  },
+  {
+    "id": 18,
+    "name": "SpeedBreaker",
+    "category": "games",
+    "categoryLabel": "INTERACTIVE",
+    "description": "Open-source static recompilation and native compatibility effort for a classic console racing title on additional platforms.",
+    "tags": [
+      "Game Porting",
+      "Graphics",
+      "Open Source"
+    ],
+    "repo": "https://github.com/starAIdeveloper/speedbreaker",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-00-ultrawide-chase-cam-race.jpg",
+    "note": "Unofficial third-party effort; screenshots and copyrights remain with respective owners."
+  },
+  {
+    "id": 19,
+    "name": "Medical-SAM3",
     "category": "ai",
     "categoryLabel": "AI & SOFTWARE",
-    "description": "Generative imagery and visual storytelling experiments.",
+    "description": "Open-source medical segmentation foundation-model codebase for prompt-driven 2D and 3D research workflows.",
     "tags": [
-      "Generative AI",
-      "Imaging"
+      "Medical Imaging",
+      "Segmentation",
+      "AI Research"
     ],
-    "repo": null,
-    "image": null
+    "repo": "https://github.com/starAIdeveloper/Medical-SAM3",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/Medical-SAM3/main/assests/overview.svg",
+    "note": "Upstream AIM-Research-Lab project; this is a repository reference, not original authorship."
+  },
+  {
+    "id": 20,
+    "name": "MIP Candy",
+    "category": "ai",
+    "categoryLabel": "AI & SOFTWARE",
+    "description": "Open-source medical image processing infrastructure with reusable networks, training, inference and evaluation pipelines.",
+    "tags": [
+      "PyTorch",
+      "Medical Imaging",
+      "ML"
+    ],
+    "repo": "https://github.com/starAIdeveloper/MIPCandy",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/MIPCandy/main/home/assets/poster.png",
+    "note": "Upstream ProjectNeura framework; displayed as open-source codebase reference."
+  },
+  {
+    "id": 21,
+    "name": "TorchXRayVision",
+    "category": "ai",
+    "categoryLabel": "AI & SOFTWARE",
+    "description": "Open-source chest X-ray image datasets, preprocessing and pretrained deep-learning model toolkit.",
+    "tags": [
+      "PyTorch",
+      "X-Ray",
+      "Machine Learning"
+    ],
+    "repo": "https://github.com/starAIdeveloper/torchxrayvision",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/torchxrayvision/main/docs/segmentation-pspnet.png",
+    "note": "Upstream open-source project by its original maintainers; no claim of original authorship or clinical validation."
+  },
+  {
+    "id": 22,
+    "name": "OpenMVS",
+    "category": "robotics",
+    "categoryLabel": "ROBOTICS & 3D",
+    "description": "Open-source multi-view stereo reconstruction toolkit for dense point-cloud generation and textured surface workflows.",
+    "tags": [
+      "3D Reconstruction",
+      "Photogrammetry",
+      "C++"
+    ],
+    "repo": "https://github.com/starAIdeveloper/openMVS",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/openMVS/main/apps/Tests/data/images/00000.jpg",
+    "note": "Upstream open-source library; thumbnail is a test input image, not a screenshot of a finished application."
+  },
+  {
+    "id": 23,
+    "name": "Three.js Game Skills",
+    "category": "games",
+    "categoryLabel": "INTERACTIVE",
+    "description": "Reusable AI-agent skills and test scaffolding for building, debugging and validating Three.js browser games.",
+    "tags": [
+      "Three.js",
+      "Game Tooling",
+      "AI"
+    ],
+    "repo": "https://github.com/starAIdeveloper/ThreeJS-Game",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/ThreeJS-Game/main/skills/threejs-aaa-graphics-builder/assets/scorecard-anchors/scene-1.jpg",
+    "note": "Cover is sample scorecard artwork included with tooling; this repository is a skill library, not a finished game."
+  },
+  {
+    "id": 24,
+    "name": "Clips Kitty",
+    "category": "ai",
+    "categoryLabel": "AI & SOFTWARE",
+    "description": "Open-source local AI-assisted short-video clipping and review workflow for gaming, sports and conversational recordings.",
+    "tags": [
+      "Video Editing",
+      "Local AI",
+      "Desktop"
+    ],
+    "repo": "https://github.com/starAIdeveloper/clips-studio",
+    "image": "https://raw.githubusercontent.com/starAIdeveloper/clips-studio/main/docs/store-screenshots/fs-dashboard-202754.png",
+    "note": "Open-source project by its original maintainers; included here as a public codebase reference."
   }
 ];
