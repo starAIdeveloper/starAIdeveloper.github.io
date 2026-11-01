@@ -82,3 +82,9 @@ Project README changes are not automatically synchronized. To update a project, 
 Project dialogs now include image thumbnails and a larger preview with labels distinguishing **running application**, **design reference**, and **repository image** assets. The gallery uses image paths confirmed in the corresponding repository trees. The homepage expertise cards display authentic repository imagery in five disciplines and an original SVG illustration for AI agents.
 
 A successful GitHub Pages build and deployment was observed for the previous update on November 1, 2026. Subsequent commits may require a new successful deployment; check the [Actions page](https://github.com/starAIdeveloper/starAIdeveloper.github.io/actions) for status.
+
+## README synchronization — November 1, 2026
+
+Reviewed the README files across the GitHub account's project repositories, comparing them with the existing portfolio catalog. The updated [Baseball Analysis](https://github.com/starAIdeveloper/Baseball-Analysis) README adds five user-supplied concept visuals for pitch, swing, release, strike-zone and biomechanics ideas. The portfolio gallery now contains **two screenshots from the running demo and five clearly labeled design references**. The application uses OpenCV candidate extraction and manually validated 2D measurements; these reference images are not model output or performance benchmarks.
+
+Current portfolio inventory: **24 repository-backed projects** with **62 image gallery entries**. Projects without suitable committed images remain excluded.
