@@ -1,90 +1,60 @@
-# starAIdeveloper — AI & Software Engineering Portfolio
+# starAIdeveloper portfolio
 
-Portfolio source: **https://starAIdeveloper.github.io/**
+Live site: https://starAIdeveloper.github.io/
 
-## Current website
+## README image refresh
 
-- **24 selected repository-backed portfolio entries**, each with a real image asset in the respective GitHub repository
-- Five verified project screenshots used as expertise artwork, plus one original AI-agent SVG illustration in the `Built at the intersection of vision & execution` section
-- Project descriptions refreshed from linked project README files
-- Full-text search, category filters and project detail modals
-- Source links and scope disclaimers for prototypes, reference artwork and upstream projects
-- Responsive static GitHub Pages site with no build step
+The portfolio showcases 20 projects with 76 gallery images selected from their current README files. Reference galleries take priority when provided. All selected files were checked against their repository trees.
 
-## Portfolio image policy
+- Refreshed hero, project covers, galleries and six category visuals.
+- Removed the previous category illustration assets.
+- Full-size images use contain sizing to keep desktop interface details visible.
+- Search, category filters, load more, and image gallery controls are retained.
+- Project notes distinguish reference artwork, running applications and upstream codebases.
 
-An entry is listed only when its GitHub repository contains a usable committed image file. Project images use the literal public raw GitHub URL of the corresponding existing image in that repository. The website does **not** invent substitute screenshots for projects without images.
+## Project image sources
 
-**Entries removed from this gallery:** previous standalone project concepts without linked image-bearing repositories, plus repositories with no suitable project image. These removals affect the portfolio catalog only; no source repositories or their files were deleted.
-
-Some repositories contain **reference concept artwork**, rather than screenshots of the running software. Those entries are labeled in their project detail notes. Public mirrors, forks and upstream open-source codebases are identified without implying sole original authorship.
-
-## Primary project sources
-
-| Category | Repo | Main image |
+| Project | README | Gallery images |
 | --- | --- | --- |
-| Sports | [SportVision](https://github.com/starAIdeveloper/SportVision) | `artifacts/desktop.webp` |
-| Vision | [Video-Synopsis-System](https://github.com/starAIdeveloper/Video-Synopsis-System) | `artifacts/synopsis-desktop.webp` |
-| Sports | [Baseball-Analysis](https://github.com/starAIdeveloper/Baseball-Analysis) | `artifacts/desktop.webp` |
-| 3D / CAD | [VirtualTour](https://github.com/starAIdeveloper/VirtualTour) | `docs/screenshots/dashboard.webp` |
-| Healthcare | [ToothAssist](https://github.com/starAIdeveloper/ToothAssist) | `docs/screenshots/dashboard.webp` |
-| Healthcare | [X-Ray](https://github.com/starAIdeveloper/X-Ray) | `docs/screenshots/dashboard.webp` |
-| 3D / BIM | [3D-BIM](https://github.com/starAIdeveloper/3D-BIM) | `docs/screenshots/modern-villa.webp` |
-| Robotics | [3D-Reconstruction](https://github.com/starAIdeveloper/3D-Reconstruction) | `docs/desktop.png` |
-| Games | [ThreeJS-Racing-Game](https://github.com/starAIdeveloper/ThreeJS-Racing-Game) | `docs/desktop.png` |
-| 3D | [SceneReconstruction](https://github.com/starAIdeveloper/SceneReconstruction) | `docs/walkthrough/app-walkthrough-poster.jpg` |
-| Games | [Hunting-Boat](https://github.com/starAIdeveloper/Hunting-Boat) | `docs/reference/unity3d-2.png` |
-| Construction | [CloudES](https://github.com/starAIdeveloper/CloudES) | `docs/reference/cloudes_personal-0.png` |
+| SportsVision | [README](https://github.com/starAIdeveloper/SportVision#readme) | 4 |
+| Video Synopsis System | [README](https://github.com/starAIdeveloper/Video-Synopsis-System#readme) | 5 |
+| Baseball Analysis | [README](https://github.com/starAIdeveloper/Baseball-Analysis#readme) | 5 |
+| VirtualTour Studio | [README](https://github.com/starAIdeveloper/VirtualTour#readme) | 5 |
+| ToothAssist CV | [README](https://github.com/starAIdeveloper/ToothAssist#readme) | 6 |
+| X-Ray 3D Reconstruction | [README](https://github.com/starAIdeveloper/X-Ray#readme) | 5 |
+| 3D-BIM Desktop | [README](https://github.com/starAIdeveloper/3D-BIM#readme) | 3 |
+| 3D Reconstruction Workbench | [README](https://github.com/starAIdeveloper/3D-Reconstruction#readme) | 1 |
+| Coastline Rush | [README](https://github.com/starAIdeveloper/ThreeJS-Racing-Game#readme) | 5 |
+| Scene Reconstruction | [README](https://github.com/starAIdeveloper/SceneReconstruction#readme) | 1 |
+| Hunting Boat | [README](https://github.com/starAIdeveloper/Hunting-Boat#readme) | 4 |
+| CloudES | [README](https://github.com/starAIdeveloper/CloudES#readme) | 4 |
+| Pascal CAD Editor | [README](https://github.com/starAIdeveloper/cad-editor#readme) | 6 |
+| VibeRadiant | [README](https://github.com/starAIdeveloper/VibeRadiant#readme) | 1 |
+| openQ4 | [README](https://github.com/starAIdeveloper/openQ4#readme) | 5 |
+| SpeedBreaker | [README](https://github.com/starAIdeveloper/speedbreaker#readme) | 9 |
+| Medical-SAM3 | [README](https://github.com/starAIdeveloper/Medical-SAM3#readme) | 1 |
+| MIP Candy | [README](https://github.com/starAIdeveloper/MIPCandy#readme) | 1 |
+| TorchXRayVision | [README](https://github.com/starAIdeveloper/torchxrayvision#readme) | 4 |
+| Clips Kitty | [README](https://github.com/starAIdeveloper/clips-studio#readme) | 1 |
 
-Additional included repositories are catalogued in `projects.js` (Pascal CAD Editor, VibeStudio, VibeRadiant, Q2 Gladiator Bot, openQ4, SpeedBreaker, Medical-SAM3, MIP Candy, TorchXRayVision, OpenMVS, Three.js Game Skills, and Clips Kitty).
+## Selection rules
 
-## Category illustration assets
+Use useful project visuals referenced by the current README and committed in the corresponding repository. Exclude badges, avatars, sponsor graphics and logo-only entries. Remove duplicate image paths. When a README includes a supplied reference gallery, use that gallery rather than older application screenshots.
 
-The six original lightweight category SVGs remain committed for future use. The live expertise section now uses verified repository screenshots for Vision, Robotics, 3D/CAD, Full-Stack and Games, and the original AI SVG for intelligent-agent concepts.
+The following entries were removed from the showcase because their current README did not provide a suitable committed project visual: VibeStudio, Quake2-Gladiator-Bot, openMVS, ThreeJS-Game. No project repositories were changed.
 
-- `assets/expertise/vision.svg` — computer vision detection scene
-- `assets/expertise/ai.svg` — connected AI agents
-- `assets/expertise/robotics.svg` — robotic mapping and navigation
-- `assets/expertise/3d.svg` — isometric CAD building
-- `assets/expertise/stack.svg` — web application dashboard
-- `assets/expertise/games.svg` — interactive game controller
+`image-sources.json` records the source README, image paths and verified blob hashes. `projects.js` contains the display catalog. Image references are a reviewed snapshot, not a live GitHub API dependency.
 
-## Website files
+## Files and local preview
 
-- `index.html` — homepage, project filters, expertise section and contact
-- `style.css` — layout, dark color system, responsive styling
-- `projects.js` — **24 verified image-backed project entries**
-- `app.js` — filtering, search and multi-image project galleries with labeled screenshot/reference provenance
-- `assets/expertise/*.svg` — category artwork
-- `favicon.svg` — icon
-- `.nojekyll` — GitHub Pages static assets
+- `index.html`: homepage and category visuals
+- `style.css`: responsive layout and gallery styling
+- `projects.js`: README-derived image catalog and project notes
+- `app.js`: search, filters, navigation and gallery interactions
+- `image-sources.json`: image provenance
 
-## Local preview
-
-```bash
-python -m http.server 8000
-```
-
-Open http://localhost:8000/.
+Run `python -m http.server 8000` and open http://localhost:8000/.
 
 ## Publishing
 
-Repository **Settings → Pages → Deploy from a branch → main → /(root)**.
-
-The intended public address is https://starAIdeveloper.github.io/ after Pages successfully deploys. Configure a custom domain via Pages settings only once the actual owned domain is supplied.
-
-## Maintenance
-
-Project README changes are not automatically synchronized. To update a project, review its README and current image tree, then update `projects.js`. Keep descriptions within demonstrated or documented scope. Avoid claiming clinical accuracy, production model performance, or original authorship without evidence.
-
-## Latest visual refresh
-
-Project dialogs now include image thumbnails and a larger preview with labels distinguishing **running application**, **design reference**, and **repository image** assets. The gallery uses image paths confirmed in the corresponding repository trees. The homepage expertise cards display authentic repository imagery in five disciplines and an original SVG illustration for AI agents.
-
-A successful GitHub Pages build and deployment was observed for the previous update on November 1, 2026. Subsequent commits may require a new successful deployment; check the [Actions page](https://github.com/starAIdeveloper/starAIdeveloper.github.io/actions) for status.
-
-## README synchronization — November 1, 2026
-
-Reviewed the README files across the GitHub account's project repositories, comparing them with the existing portfolio catalog. The updated [Baseball Analysis](https://github.com/starAIdeveloper/Baseball-Analysis) README adds five user-supplied concept visuals for pitch, swing, release, strike-zone and biomechanics ideas. The portfolio gallery now contains **two screenshots from the running demo and five clearly labeled design references**. The application uses OpenCV candidate extraction and manually validated 2D measurements; these reference images are not model output or performance benchmarks.
-
-Current portfolio inventory: **24 repository-backed projects** with **62 image gallery entries**. Projects without suitable committed images remain excluded.
+GitHub Pages serves the root of the `main` branch. Changes are published through the existing Pages workflow. Check the repository Actions page for deployment status.

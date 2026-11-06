@@ -1,6 +1,7 @@
 (() => {
   "use strict";
   const projects = window.PORTFOLIO_PROJECTS || [];
+  document.getElementById("project-total").textContent = projects.length;
   const grid = document.getElementById("project-grid");
   const search = document.getElementById("project-search");
   const more = document.getElementById("load-more");
@@ -23,7 +24,7 @@
     grid.innerHTML = matches.slice(0, visible).map(function(project) {
       return '<article class="project-card">' +
         '<div class="project-cover"><img src="' + esc(project.image) + '" alt="' + esc(project.name) +
-        ' project image" loading="lazy"></div>' +
+        ' project image" loading="lazy" decoding="async"></div>' +
         '<div class="project-card-body">' +
         '<div class="project-card-meta">' + esc(project.categoryLabel) + ' / ' + String(project.id).padStart(2, "0") + '</div>' +
         '<h3>' + esc(project.name) + '</h3><p>' + esc(project.description) + '</p>' +
@@ -79,6 +80,7 @@
       '<h2>' + esc(project.name) + '</h2><p>' + esc(project.description) + '</p>' +
       '<div class="tags">' + project.tags.map(t => '<span>' + esc(t) + '</span>').join("") + '</div>' +
       (project.note ? '<p class="project-note">' + esc(project.note) + '</p>' : '') +
+      '<a class="readme-link" href="' + esc(project.repo + '#readme') + '" target="_blank" rel="noopener noreferrer">View project README ↗</a>' +
       '<div class="gallery-heading">Project images <small>' + gallery.length + ' verified file' +
       (gallery.length === 1 ? '' : 's') + '</small></div>' +
       '<div class="gallery-thumbs" role="group" aria-label="Select project image">' + thumbnails + '</div>' +

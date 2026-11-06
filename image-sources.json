@@ -1,0 +1,664 @@
+{
+  "updated": "2026-11-06",
+  "selection": "Current README project visuals; supplied reference galleries take priority.",
+  "excluded": [
+    "VibeStudio",
+    "Quake2-Gladiator-Bot",
+    "openMVS",
+    "ThreeJS-Game"
+  ],
+  "projects": [
+    {
+      "repository": "https://github.com/starAIdeveloper/SportVision",
+      "readme": "https://github.com/starAIdeveloper/SportVision/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/SportVision/main/docs/images/sport_analyze-3.png",
+          "title": "Football analysis dashboard with player tracking, performance charts and heatmaps",
+          "kind": "Design reference",
+          "path": "docs/images/sport_analyze-3.png",
+          "sha": "528b3f69cf2483a6b2c29b4e8f60c3016d1ca492"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/SportVision/main/docs/images/sport_analyze-0.png",
+          "title": "Mobile concepts showing the dashboard, workout planner, AI coach, analytics and profile",
+          "kind": "Design reference",
+          "path": "docs/images/sport_analyze-0.png",
+          "sha": "534e798bd2c47672280ab8de0c8231b617848740"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/SportVision/main/docs/images/sport_analyze-1.png",
+          "title": "Match analysis concept with player performance, trajectories and video synopsis",
+          "kind": "Design reference",
+          "path": "docs/images/sport_analyze-1.png",
+          "sha": "3150a9653c2c22bdbe53c58b48640b9ecaf2cf3c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/SportVision/main/docs/images/sport_analyze-2.png",
+          "title": "Football tracking concept with speed charts, pose tracking, heatmaps and key moments",
+          "kind": "Design reference",
+          "path": "docs/images/sport_analyze-2.png",
+          "sha": "5775d06cc5b49ea6b54d8c0985d8b7d75a39a340"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/Video-Synopsis-System",
+      "readme": "https://github.com/starAIdeveloper/Video-Synopsis-System/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Video-Synopsis-System/main/docs/reference/video-analysis-5.png",
+          "title": "Dashboard overview design reference",
+          "kind": "Design reference",
+          "path": "docs/reference/video-analysis-5.png",
+          "sha": "79e45787e4c1443cf1b59230641d7b84fe2ea05e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Video-Synopsis-System/main/docs/reference/video-analysis-2.png",
+          "title": "Object tracking design reference",
+          "kind": "Design reference",
+          "path": "docs/reference/video-analysis-2.png",
+          "sha": "78891474b53815ba78e97dfc87ab9c0b7e93378e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Video-Synopsis-System/main/docs/reference/video-analysis-3.png",
+          "title": "Playback and event review design reference",
+          "kind": "Design reference",
+          "path": "docs/reference/video-analysis-3.png",
+          "sha": "4cbdb3dd452cfc0f8c1ef150a7c50d3e45c75438"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Video-Synopsis-System/main/docs/reference/video-analysis-4.png",
+          "title": "Live traffic analysis design reference",
+          "kind": "Design reference",
+          "path": "docs/reference/video-analysis-4.png",
+          "sha": "d9793cba17c3a14e6f1bb13af1906c33f7805b7f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Video-Synopsis-System/main/docs/reference/video-analysis-1.png",
+          "title": "Reports and analytics design reference",
+          "kind": "Design reference",
+          "path": "docs/reference/video-analysis-1.png",
+          "sha": "a7089384263e726cdca7396e629d61c68eeb371a"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/Baseball-Analysis",
+      "readme": "https://github.com/starAIdeveloper/Baseball-Analysis/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-3.png",
+          "title": "Pitch trajectory and full-body pose visualization",
+          "kind": "Design reference",
+          "path": "docs/reference/baseball-analyze-3.png",
+          "sha": "172ffee7f056ec56472d32013af0231297a7c203"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-1.png",
+          "title": "Pitch, swing and biomechanics overview",
+          "kind": "Design reference",
+          "path": "docs/reference/baseball-analyze-1.png",
+          "sha": "7c5535677c721214d8d1b2454428fd53e4fd8fde"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-2.png",
+          "title": "Pitching, field positioning and bat contact",
+          "kind": "Design reference",
+          "path": "docs/reference/baseball-analyze-2.png",
+          "sha": "50af2a8588e91086cb2ad9f95d459a84ad12ff01"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-4.png",
+          "title": "Release mechanics and strike-zone visualization",
+          "kind": "Design reference",
+          "path": "docs/reference/baseball-analyze-4.png",
+          "sha": "6f2fb250179dc0dae310fd3df849390fe4e5a0da"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Baseball-Analysis/main/docs/reference/baseball-analyze-5.png",
+          "title": "Swing mechanics and ball-flight analysis",
+          "kind": "Design reference",
+          "path": "docs/reference/baseball-analyze-5.png",
+          "sha": "d9d0d34ff3f1164162d6fd2e16b40627063f2779"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/VirtualTour",
+      "readme": "https://github.com/starAIdeveloper/VirtualTour/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/VirtualTour/main/docs/reference/screen-2.webp",
+          "title": "Virtual tour dashboard design with tour preview, navigation map and visitor overview",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-2.webp",
+          "sha": "497db934806f63f5719a751e4ed2a6b11b8c424a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/VirtualTour/main/docs/reference/screen-1.webp",
+          "title": "Computer vision processing design with keypoints, feature matches, alignment and blending diagnostics",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-1.webp",
+          "sha": "d3b1454c531db726bb10976836f76879c805bf12"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/VirtualTour/main/docs/reference/screen-3.webp",
+          "title": "Panorama stitching design with source images, processing controls, hotspots and scene navigation",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-3.webp",
+          "sha": "d2114ecff6bc2af72e83855d307eb69990a6c305"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/VirtualTour/main/docs/reference/screen-4.webp",
+          "title": "Virtual tour player design with interactive hotspots, scene information and floor-plan navigation",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-4.webp",
+          "sha": "84b9a743f268b507f1600bdc39ab2c8d433e0402"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/VirtualTour/main/docs/reference/screen-5.webp",
+          "title": "Visitor analytics design with trends, dwell time, hotspot engagement and a floor-plan heatmap",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-5.webp",
+          "sha": "228c7fc0bc1d6e6affd3cdd1f593a2d46699b58e"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/ToothAssist",
+      "readme": "https://github.com/starAIdeveloper/ToothAssist/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ToothAssist/main/docs/screenshots/dashboard.webp",
+          "title": "Running ToothAssist dashboard",
+          "kind": "Application preview",
+          "path": "docs/screenshots/dashboard.webp",
+          "sha": "d6770d87e7fbd1998956666016a5c3f6f8b149ef"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ToothAssist/main/docs/screenshots/scan.webp",
+          "title": "Scan workspace with working Sobel filter and pixel ruler",
+          "kind": "Application preview",
+          "path": "docs/screenshots/scan.webp",
+          "sha": "a760aa692243f4caf97cefca51047de08859a09b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ToothAssist/main/docs/screenshots/analysis.webp",
+          "title": "Analysis workspace with uploaded image",
+          "kind": "Application preview",
+          "path": "docs/screenshots/analysis.webp",
+          "sha": "6680ec75e057ef243baf3a89ec0c2f88481ec539"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ToothAssist/main/docs/screenshots/treatment.webp",
+          "title": "Interactive dental chart and treatment schedule",
+          "kind": "Application preview",
+          "path": "docs/screenshots/treatment.webp",
+          "sha": "afb8043572958c4ce2e0393e1bcb32759fa6604e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ToothAssist/main/docs/screenshots/reports.webp",
+          "title": "Patient report and export actions",
+          "kind": "Application preview",
+          "path": "docs/screenshots/reports.webp",
+          "sha": "89983a82075b95efd6898f04cb4630d45fec31ea"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ToothAssist/main/docs/screenshots/mobile.webp",
+          "title": "Responsive mobile dashboard",
+          "kind": "Application preview",
+          "path": "docs/screenshots/mobile.webp",
+          "sha": "e9aa1ceec8f2cfe5e916387bb5b56fdbdf12d368"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/X-Ray",
+      "readme": "https://github.com/starAIdeveloper/X-Ray/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/X-Ray/main/docs/reference/screen-1.webp",
+          "title": "Reconstruction report design with projection comparisons, dimensional analysis, deviation heatmaps and study history",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-1.webp",
+          "sha": "2172573e344bf30ec0f42f3f24f03e32a353e0bf"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/X-Ray/main/docs/reference/screen-2.webp",
+          "title": "Reconstruction workspace design with volume slices, mesh and point-cloud views, parameters and convergence charts",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-2.webp",
+          "sha": "10e2a0a350318580de9ab009406847a6c4228df9"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/X-Ray/main/docs/reference/screen-3.webp",
+          "title": "Segmentation design with bone contours, image-processing controls, calibration markers and feature matching",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-3.webp",
+          "sha": "d7df14903341f5eca037bff23d135ba5f7f5d942"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/X-Ray/main/docs/reference/screen-4.webp",
+          "title": "Projection import design with image thumbnails, an import queue, dataset management and acquisition metadata",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-4.webp",
+          "sha": "4f6c2db804247ebae35786214f1e066011e420a4"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/X-Ray/main/docs/reference/screen-5.webp",
+          "title": "Dashboard design with projection previews, a 3D model, cross-sections and reconstruction quality charts",
+          "kind": "Design reference",
+          "path": "docs/reference/screen-5.webp",
+          "sha": "1105716e294ed72f0f312ff165ded392b97dece2"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/3D-BIM",
+      "readme": "https://github.com/starAIdeveloper/3D-BIM/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/3D-BIM/main/docs/reference/bim-2.png",
+          "title": "Construction simulation concept with a partially built structure, task properties and a construction timeline",
+          "kind": "Design reference",
+          "path": "docs/reference/bim-2.png",
+          "sha": "3669488974747be004bce3c75e36a6aea2366c1d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/3D-BIM/main/docs/reference/bim-1.png",
+          "title": "BIM workspace concept with a building cutaway, mechanical systems, project browser and selected duct properties",
+          "kind": "Design reference",
+          "path": "docs/reference/bim-1.png",
+          "sha": "a74216ccd5163857033f0953fb86eabf6e14121c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/3D-BIM/main/docs/reference/bim-3.png",
+          "title": "Building performance concept with airflow visualization, temperature maps, energy charts and equipment properties",
+          "kind": "Design reference",
+          "path": "docs/reference/bim-3.png",
+          "sha": "15b6d314df6d3eea7a58996f4f6a71d5774e8d28"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/3D-Reconstruction",
+      "readme": "https://github.com/starAIdeveloper/3D-Reconstruction/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/3D-Reconstruction/main/docs/images/plan-to-3d-0.png",
+          "title": "Architectural modeling portfolio showing a 2D floor plan, 3D isometric interior, exterior render, structural wireframe and bedroom visualization",
+          "kind": "Design reference",
+          "path": "docs/images/plan-to-3d-0.png",
+          "sha": "16514e6f8c54bb245392b86c5f80a5fca6d41acf"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/ThreeJS-Racing-Game",
+      "readme": "https://github.com/starAIdeveloper/ThreeJS-Racing-Game/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ThreeJS-Racing-Game/main/docs/reference/car-1.png",
+          "title": "Coastal driving concept with a chase camera, sunset scenery, speedometer and route navigation",
+          "kind": "Design reference",
+          "path": "docs/reference/car-1.png",
+          "sha": "e8c7039e64f9f7e7a56964262da90939b758b16a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ThreeJS-Racing-Game/main/docs/reference/car-2.png",
+          "title": "First-person cockpit concept with dashboard instruments, mirrors and coastal route navigation",
+          "kind": "Design reference",
+          "path": "docs/reference/car-2.png",
+          "sha": "05bab7e9fa6479e690cb259b599b633cd4334e71"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ThreeJS-Racing-Game/main/docs/reference/car-3.png",
+          "title": "Urban driving concept with city traffic, a chase camera and navigation overlays",
+          "kind": "Design reference",
+          "path": "docs/reference/car-3.png",
+          "sha": "0c95831e7e343d5b52e839935c89c635b5717a02"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ThreeJS-Racing-Game/main/docs/reference/car-4.png",
+          "title": "Garage concept with vehicle performance statistics, wheel choices, paint and customization controls",
+          "kind": "Design reference",
+          "path": "docs/reference/car-4.png",
+          "sha": "bc15bc8d95fe5e0c715c806d78e5b71eebdc34e0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/ThreeJS-Racing-Game/main/docs/reference/car-5.png",
+          "title": "Mountain driving concept with alpine scenery, hairpin navigation and a chase camera",
+          "kind": "Design reference",
+          "path": "docs/reference/car-5.png",
+          "sha": "e773ce24dee368d235c3bc167f5de42859cf4bb0"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/SceneReconstruction",
+      "readme": "https://github.com/starAIdeveloper/SceneReconstruction/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/SceneReconstruction/main/docs/walkthrough/app-walkthrough.gif",
+          "title": "Continuous walkthrough of the running Scene Reconstruction app",
+          "kind": "Application preview",
+          "path": "docs/walkthrough/app-walkthrough.gif",
+          "sha": "8c0c8b096bb4e9b58980d7c2f6d303e5e788353d"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/Hunting-Boat",
+      "readme": "https://github.com/starAIdeveloper/Hunting-Boat/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Hunting-Boat/main/docs/reference/unity3d-2.png",
+          "title": "Ocean Hunter concept with a boat voyage, objectives, underwater fishing, catch rewards and gear",
+          "kind": "Design reference",
+          "path": "docs/reference/unity3d-2.png",
+          "sha": "b618a7634d73f4c4ac7f35eba1dfacee9e2d6816"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Hunting-Boat/main/docs/reference/unity3d-1.png",
+          "title": "Ocean Hunter concept showing boat navigation, fishing tension, island exploration, weather and equipment screens",
+          "kind": "Design reference",
+          "path": "docs/reference/unity3d-1.png",
+          "sha": "1e7e74aeb0bb877a127eedb7b67a84fa9c5eeb7e"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Hunting-Boat/main/docs/reference/unity3d-3.png",
+          "title": "Fishing adventure concept with island navigation, marine life, boat upgrades and weather variations",
+          "kind": "Design reference",
+          "path": "docs/reference/unity3d-3.png",
+          "sha": "829adcbd6a0ebf41ee2390b865b970a41d36e5c0"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Hunting-Boat/main/docs/reference/unity3d-4.png",
+          "title": "Ocean Hunter concept with fishing, navigation, catch results, upgrades and a proposed multiplayer multi-screen setup",
+          "kind": "Design reference",
+          "path": "docs/reference/unity3d-4.png",
+          "sha": "a34e30fcc9f75fd5d5d6714385ac38df95cdda52"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/CloudES",
+      "readme": "https://github.com/starAIdeveloper/CloudES/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/CloudES/main/docs/reference/cloudes_personal-0.png",
+          "title": "Construction overview concept with a 3D site, asset locations and geospatial layers",
+          "kind": "Design reference",
+          "path": "docs/reference/cloudes_personal-0.png",
+          "sha": "42c79d4470493535d24d10bf2e7357f4cbf0f79c"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/CloudES/main/docs/reference/cloudes_personal-1.png",
+          "title": "Building viewer concept with model views, element properties and related information",
+          "kind": "Design reference",
+          "path": "docs/reference/cloudes_personal-1.png",
+          "sha": "8d325da3efb6ec90fd655afed39f379862961a83"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/CloudES/main/docs/reference/cloudes_personal-2.png",
+          "title": "BIM workspace concept with a model tree, selected building element and property inspector",
+          "kind": "Design reference",
+          "path": "docs/reference/cloudes_personal-2.png",
+          "sha": "fa3dcacd47e9e0d39815ba319e731ba7eead77be"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/CloudES/main/docs/reference/cloudes_personal-3.png",
+          "title": "Building coordination concept with floor navigation, section and explosion tools, and geometry properties",
+          "kind": "Design reference",
+          "path": "docs/reference/cloudes_personal-3.png",
+          "sha": "7681af067aa1ca834e893c69445d62e585a9add0"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/cad-editor",
+      "readme": "https://github.com/starAIdeveloper/cad-editor/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/cad-editor/main/docs/media/next-demo/exploded.gif",
+          "title": "Roof lifted above the reconstructed home",
+          "kind": "Application preview",
+          "path": "docs/media/next-demo/exploded.gif",
+          "sha": "0ae2a8095dbbc5a2ff4c503a4772fcba91ad2e79"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/cad-editor/main/docs/media/next-demo/cutview.gif",
+          "title": "A section cut reveals the roof framing and interior",
+          "kind": "Application preview",
+          "path": "docs/media/next-demo/cutview.gif",
+          "sha": "7be3d405fc6148d868afdd731af52d59a9826983"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/cad-editor/main/docs/media/next-demo/xray.gif",
+          "title": "Building systems isolated with the walls hidden",
+          "kind": "Application preview",
+          "path": "docs/media/next-demo/xray.gif",
+          "sha": "8ac21a890129a44d5619607683c8f0e64c13006f"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/cad-editor/main/docs/media/next-demo/walkthrough.gif",
+          "title": "Walking through the home toward the pool terrace",
+          "kind": "Application preview",
+          "path": "docs/media/next-demo/walkthrough.gif",
+          "sha": "46e0d19f3b4a2618fb5d330a92a60b4a689febd5"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/cad-editor/main/docs/media/next-demo/interactions.gif",
+          "title": "Interacting with doors in the reconstructed home",
+          "kind": "Application preview",
+          "path": "docs/media/next-demo/interactions.gif",
+          "sha": "3932c7ddf78369068224978ce865a2388de66bdd"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/cad-editor/main/docs/media/next-demo/environment.gif",
+          "title": "Changing the lighting around the reconstructed home",
+          "kind": "Application preview",
+          "path": "docs/media/next-demo/environment.gif",
+          "sha": "6f7c2731a323176e4443dcbbbf1123961c8b1835"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/VibeRadiant",
+      "readme": "https://github.com/starAIdeveloper/VibeRadiant/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/VibeRadiant/main/docs/viberadiant-banner.png",
+          "title": "VibeRadiant banner",
+          "kind": "Repository visual",
+          "path": "docs/viberadiant-banner.png",
+          "sha": "178560af334acda9c52d9b509b7f3fbec539b466"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/openQ4",
+      "readme": "https://github.com/starAIdeveloper/openQ4/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/openQ4/main/assets/docs/img/banner.png",
+          "title": "openQ4 banner",
+          "kind": "Repository visual",
+          "path": "assets/docs/img/banner.png",
+          "sha": "f07333d881cd950e5cce9ffad0c37fef9eb86969"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/openQ4/main/assets/docs/img/readme-airdefense1-cinematic.png",
+          "title": "openQ4 airdefense1 intro cinematic showing ships approaching Stroggos",
+          "kind": "Repository visual",
+          "path": "assets/docs/img/readme-airdefense1-cinematic.png",
+          "sha": "48eb665a6a5d954ab9a3532d9a386249f1ed15e8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/openQ4/main/assets/docs/img/readme-bloom-hdr.png",
+          "title": "openQ4 bloom and HDR side-by-side comparison on mp q4dm2",
+          "kind": "Repository visual",
+          "path": "assets/docs/img/readme-bloom-hdr.png",
+          "sha": "f0ecf9eec31bedf6723a8e3615dfb4b276af3301"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/openQ4/main/assets/docs/img/readme-lightgrid.png",
+          "title": "openQ4 light-grid indirect diffuse off and on comparison",
+          "kind": "Repository visual",
+          "path": "assets/docs/img/readme-lightgrid.png",
+          "sha": "3baeabb179e9de924cf94f45fc728efe1c9d61ec"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/openQ4/main/assets/docs/img/readme-crt.png",
+          "title": "openQ4 CRT post-process off and on comparison on mp q4dm8",
+          "kind": "Repository visual",
+          "path": "assets/docs/img/readme-crt.png",
+          "sha": "914ec884e6a427db6de70c69ff4c399d9a855e7f"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/speedbreaker",
+      "readme": "https://github.com/starAIdeveloper/speedbreaker/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/speedbreaker-banner-light.png",
+          "title": "SpeedBreaker",
+          "kind": "Repository visual",
+          "path": "assets/speedbreaker-banner-light.png",
+          "sha": "0f4489739e2e717748f64ce9f8ca63c9995bd27b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-00-ultrawide-chase-cam-race.jpg",
+          "title": "A race on a 21:9 ultrawide screen, seen from the camera behind the player",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-00-ultrawide-chase-cam-race.jpg",
+          "sha": "f8ad53eb8fbf4682393e4391ad8ed37a16d539e8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-x4-ultrawide-race-sun-sparks.jpg",
+          "title": "Racing at 21:9 into a low sun, sparks flying off the wall, HUD and rear-view mirror visible",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-x4-ultrawide-race-sun-sparks.jpg",
+          "sha": "52efaa18d2ab60156626dedf708d8db50fcb83ce"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-03-4x3-cinematic-flame-livery-closeup.jpg",
+          "title": "A close-up of a black car with flame livery, in a 4:3 frame",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-03-4x3-cinematic-flame-livery-closeup.jpg",
+          "sha": "986cc9d2e9565a3c4a39d9a43083a090a2958f52"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-01-ultrawide-cinematic-rivals-side-by-side.jpg",
+          "title": "The intro cinematic in 21:9: two cars side by side",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-01-ultrawide-cinematic-rivals-side-by-side.jpg",
+          "sha": "c61514155204035a788c2155a602f93374d00553"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-04-4k-cinematic-pursuit-crash.jpg",
+          "title": "Police cars crashing into a barrier in a shower of sparks",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-04-4k-cinematic-pursuit-crash.jpg",
+          "sha": "0905a5efff38bd367cada26481be60a021e4b89b"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-10-4k-settings-internal-resolution.png",
+          "title": "The SpeedBreaker settings menu over the paused race, on the Graphics page",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-10-4k-settings-internal-resolution.png",
+          "sha": "f2031678168fd8d6fd87df26ee26402ac69b0ca8"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-11-installer-disc-image-found.png",
+          "title": "The first-run installer, showing a disc image it found, ready to install",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-11-installer-disc-image-found.png",
+          "sha": "1289329cbf15bc737f1ed1bc660706e2c55aff6a"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/speedbreaker/main/assets/screenshots/speedbreaker-12-installer-every-file-verified.png",
+          "title": "The installer",
+          "kind": "Application preview",
+          "path": "assets/screenshots/speedbreaker-12-installer-every-file-verified.png",
+          "sha": "f0799776a6b07a9f201951a972497b477b9974b4"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/Medical-SAM3",
+      "readme": "https://github.com/starAIdeveloper/Medical-SAM3/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/Medical-SAM3/main/assests/overview.svg",
+          "title": "Medical-SAM3 Teaser",
+          "kind": "Repository visual",
+          "path": "assests/overview.svg",
+          "sha": "8a6f559b9b9b14f071bcede0c7c92b7ce198d622"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/MIPCandy",
+      "readme": "https://github.com/starAIdeveloper/MIPCandy/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/MIPCandy/main/home/assets/poster.png",
+          "title": "poster",
+          "kind": "Repository visual",
+          "path": "home/assets/poster.png",
+          "sha": "60e93a76f4913d53ae86ceef6e43c0393c22b4a4"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/torchxrayvision",
+      "readme": "https://github.com/starAIdeveloper/torchxrayvision/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/torchxrayvision/main/docs/segmentation-pspnet.png",
+          "title": "TorchXRayVision",
+          "kind": "Repository visual",
+          "path": "docs/segmentation-pspnet.png",
+          "sha": "643e673fd789343ee1da1cbda349ea88978f5714"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/torchxrayvision/main/docs/pathology-mask-rsna2.png",
+          "title": "TorchXRayVision",
+          "kind": "Repository visual",
+          "path": "docs/pathology-mask-rsna2.png",
+          "sha": "88d88d533a0cae9a1b2bd0268e959aa30ac885ba"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/torchxrayvision/main/docs/pathology-mask-rsna3.png",
+          "title": "TorchXRayVision",
+          "kind": "Repository visual",
+          "path": "docs/pathology-mask-rsna3.png",
+          "sha": "08d38fb4aefda1f294cf19ec3aaf3d39a310173d"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/torchxrayvision/main/docs/pathology-mask-rsna614-da.png",
+          "title": "TorchXRayVision",
+          "kind": "Repository visual",
+          "path": "docs/pathology-mask-rsna614-da.png",
+          "sha": "1b473fce65aa8754c0c23ae2ff948c4aa0d8e4f0"
+        }
+      ]
+    },
+    {
+      "repository": "https://github.com/starAIdeveloper/clips-studio",
+      "readme": "https://github.com/starAIdeveloper/clips-studio/blob/main/README.md",
+      "images": [
+        {
+          "url": "https://raw.githubusercontent.com/starAIdeveloper/clips-studio/main/docs/store-screenshots/fs-dashboard-202754.png",
+          "title": "The Clips Kitty dashboard: paste a YouTube, Twitch or Kick URL, pick caption and format options, and a finished video row showing 38 clips produced in 19m 38s, with live CPU, RAM, GPU and storage readouts beside it.",
+          "kind": "Application preview",
+          "path": "docs/store-screenshots/fs-dashboard-202754.png",
+          "sha": "fe9d2c824332baa23ac68cf0a204eebf9828371c"
+        }
+      ]
+    }
+  ]
+}
